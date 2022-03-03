@@ -1,0 +1,45 @@
+.title {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.table {
+display: flex;
+justify-content: center;
+}
+
+
+.ISPO-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.ISPO-table thead tr {
+    background-color: lightblue;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.ISPO-table th,
+.ISPO-table td {
+    padding: 12px 15px;
+}
+
+.ISPO-table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.ISPO-table tbody tr:nth-of-type(even) {
+    background-color: lightgrey;
+}
+
+.ISPO-table tbody tr:last-of-type {
+    border-bottom: 2px solid lightblue;
+}
